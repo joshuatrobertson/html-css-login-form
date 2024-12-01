@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="login-container">
+    <!-- Logo (Mountain icon) -->
+    <div class="logo">
+        <svg fill="#dedede" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M18,10a4,4,0,1,0-4-4A4,4,0,0,0,18,10Zm0-6a2,2,0,1,1-2,2A2,2,0,0,1,18,4Zm-1.15,8.47a1,1,0,0,0-1.7,0l-1,1.63L10.86,8.5a1,1,0,0,0-1.72,0l-7,12A1,1,0,0,0,3,22H21a1,1,0,0,0,.85-1.53ZM10.45,20H4.74L10,11l2.94,5-1.25,2Zm2.35,0,1.49-2.37L15,16.57h0L16,14.89,19.2,20Z"></path></g></svg>
+    </div>
+    <div class="input-group border-top">
+        <input class="input-box" type="text" placeholder="Username" required>
+        <i class="fa-solid fa-user icon"></i>
+    </div>
+    <div class="input-group border-btm">
+        <input class="input-box" type="password" placeholder="Password" required>
+        <i class="fa-solid fa-lock icon"></i>
+    </div>
+    <button class="btn btn-primary">Login</button>
+    <div class="social-buttons">
+        <!-- Google Login -->
+        <button class="btn-social">
+            <i class="fa-brands fa-google"></i>
+        </button>
+        <!-- GitHub Login -->
+        <button class="btn-social">
+            <i class="fa-brands fa-github"></i>
+        </button>
+        <!-- Facebook Login -->
+        <button class="btn-social">
+            <i class="fa-brands fa-facebook-f"></i>
+        </button>
+    </div>
+    <a href="#" class="forgot-password">Forgotten your password?</a>
+</div>
+</body>
+</html>
